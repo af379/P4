@@ -1,0 +1,27 @@
+/*DEVELOPER: Andrew Foye, IS117-006, Spring 2023 */
+.footerm {
+	display:none;
+}
+#buttons .btn{
+    width:100%;
+	margin:5px;
+}
+.card
+{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.form-group{
+	
+	margin-bottom:10px;
+}
+.clear { clear: both; height: 60px; }
+@media screen and (max-width: 600px) {
+	.footer{
+		display:none;
+	}
+	.footerm {
+		display:initial;
+		
+	}
+  }
